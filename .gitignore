@@ -1,0 +1,51 @@
+# Django/Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+
+# Virtual environments
+.env/
+.venv/
+venv/
+env/
+ENV/
+
+# VS Code settings
+.vscode/
+
+# macOS
+.DS_Store
+
+# SQLite database
+*.sqlite3
+db.sqlite3
+
+# Django stuff
+*.log
+staticfiles/
+media/
+
+# Pipenv
+Pipfile.lock
+
+# Secret files
+*.env
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+.cache
+
+# Migrations
+**/migrations/*.pyc
+**/migrations/__pycache__/
+
+# Test output
+junitxml.xml
+
+# Other
+*.swp
+*.swo
